@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(92, 119, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-left: 100px;
+    width: 700px;
+    text-align: center;
+}
+
+.radioplayer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 700px;
+    border: 5px solid white;
+    border-radius: 25px;
+    border-color: white;
+}
+
+.stationart {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.stationBox {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.tagline {
+    width: 400px;
+}
